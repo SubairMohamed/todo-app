@@ -4,14 +4,10 @@ import Main from './components/Main/Main';
 
 const App = () => {
   return (
-    <div className="flex min-h-screen">
-      {/* left side  */}
+    <div className="flex min-h-screen bg-gray-100">
+
       <Left />
-
-      {/* Main */}
       <Main />
-
-      {/* aside right */}
       <Right />
     </div>
   );
