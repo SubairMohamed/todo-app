@@ -2,8 +2,8 @@ import { PlusCircleIcon } from '@heroicons/react/solid';
 
 const Main = () => {
     return (
-        // Main 
         <section id="main" className="grow font-nunito">
+            {/* header */}
             <header className="mx-3 my-4 flex items-center justify-between">
                 <div>
                     <h1 className="text-2xl font-bold tracking-wider text-sky-500">Todo App</h1>
@@ -15,8 +15,20 @@ const Main = () => {
                     </button>
                 </div>
             </header>
-            <main className="bg-blue-400 m-3 px-3 py-3 rounded-lg text-black font-bold text-xl capitalize shadow-md shadow-sky-50">
-                main
+
+            {/* Main */}
+            <main className="bg-blue-400 card-white">
+                <div id='tasks'>
+                    <div id='task' className='card-white border-l-4 border-sky-900'>
+                        <div>
+                            <h5 className='font-semibold ml-3 text-slate-800'>Learning</h5>
+                        </div>
+                        <div>
+                            <h1>Learning MERN Stack</h1>
+                            <span>2021-2-23</span>
+                        </div>
+                    </div>
+                </div>
             </main>
         </section>
     )
