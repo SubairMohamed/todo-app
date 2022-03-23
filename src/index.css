@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 .card-white {
-    @apply m-3 px-3 py-3 rounded-lg text-black font-bold text-xl capitalize shadow-md shadow-sky-50;
+    @apply bg-white m-3 px-3 py-3 rounded-lg text-black font-bold text-xl capitalize shadow-md shadow-sky-50;
 }
