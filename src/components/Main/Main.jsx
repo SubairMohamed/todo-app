@@ -11,18 +11,19 @@ const Main = () => {
                     <h1 className="text-2xl font-bold tracking-wider text-sky-500">Todo App</h1>
                     <p className="text-sm text-gray-400 tracking-wider">sava my todo app</p>
                 </div>
-            </header>
-
-            {/* Main */}
-            <main className="bg-blue-400 card-white relative">
-
-                <div className="bg-white rounded-full w-12 h-10 flex justify-center items-center text-xl absolute">
+                <div className="bg-white rounded-full w-7 flex justify-center items-center text-xl">
                     <button>
                         <PlusCircleIcon className='w-7 h-7 text-sky-500 rounded-full' />
                     </button>
                 </div>
-                <div id='tasks' className='flex flex-col items-center justify-center bg-slate-300 px-4'>
+            </header>
 
+            {/* Main */}
+            <main className="bg-blue-400 card-white">
+
+
+                <div id='tasks' className='flex flex-col items-center justify-center bg-slate-400 px-4 pt-10 rounded-lg'>
+                    <h1 className='text-left w-full font-bold text-2xl border-b pb-2 mb-2 max-w-lg'>Lists</h1>
                     {/* task one */}
                     <div id='task' className='card-white border-l-4 border-sky-900 flex justify-between max-w-lg w-full'>
                         <div id='left-side'>
